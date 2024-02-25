@@ -1,0 +1,58 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6em;
+    margin: 0;
+    list-style: none;
+    font-size: 1em;
+}
+
+nav {
+    background-color: #1bbab5;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+nav ul {
+    justify-content:space-evenly
+}
+
+.top {
+    background-color: #232323;
+    color: aliceblue;
+}
+
+
+
+.top span {
+    background-color:#1bbab5;
+    padding: 0.4em;
+    margin-left: 1em;
+}
+
+.we {
+    
+    display:flex;
+    justify-content: space-around;
+    padding: 3em;
+  
+}
+
+.we ul {
+    display:block
+
+}
+
+.logo {
+    display:flex;
+    justify-content:flex-start
+}
+
+
+
+
+
+
+
+
