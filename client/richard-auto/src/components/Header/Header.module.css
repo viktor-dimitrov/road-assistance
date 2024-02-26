@@ -35,7 +35,7 @@ nav ul {
     
     display:flex;
     justify-content: space-around;
-    padding: 3em;
+ 
   
 }
 
@@ -45,8 +45,14 @@ nav ul {
 }
 
 .logo {
-    display:flex;
-    justify-content:flex-start
+   
+    justify-content:flex-start;
+
+}
+
+.logo img {
+    width:8em;
+    height: 8em;
 }
 
 

@@ -15,19 +15,21 @@ export default function Header() {
                     <li> phone: +359899633333  <span >24/7</span> </li>
                 </ul>
             </div>
-
+{/* 
             <section className={styles['we']} >
-            <div className={styles['logo']} >
-              <h1>Richard Auto</h1>
-           
+            <div className={styles['logo']} > 
+            <img src="src/assets/svg/logo-color.svg" alt="logo" />
             </div>
-            <h2>некво лого тука</h2>
+            
+            <div>
+                
+            </div>
             
             <div>
                 <h1> тука некъв лиценз</h1>
             </div>
             
-            </section>
+            </section> */}
 
             <nav>
                 <ul>
