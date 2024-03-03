@@ -26,6 +26,20 @@ export default function Services () {
 
             <article className={styles['service-card']} >
                 <div className={styles['icon']}>
+                <img src="src/assets/svg/checkmark-male-user-icon.svg" alt="battery" />
+                </div>
+                <p>Коректно отношение</p>
+            </article>
+
+            <article className={styles['service-card']} >
+                <div className={styles['icon']}>
+                <img src="src/assets/svg/low-cost-icon.svg" alt="battery" />
+                </div>
+                <p>Ниски цени</p>
+            </article>
+
+            <article className={styles['service-card']} >
+                <div className={styles['icon']}>
                 <img src="src/assets/svg/country-icon.svg" alt="battery" />
                 </div>
                 <p>Цяла Европа</p>
