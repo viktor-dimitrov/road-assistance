@@ -8,41 +8,21 @@ ul {
 }
 
 nav {
-    background-color: #1bbab5;
+    background: rgb(8,147,176);
+background: linear-gradient(90deg, rgba(8,147,176,1) 0%, rgba(202,209,224,1) 0%, rgba(8,147,176,1) 100%);
     color: aliceblue;
     font-weight: 600;
     letter-spacing: 0.1em;
+ 
 }
 
 nav ul {
-    justify-content:space-evenly
-}
-
-.top {
-    background-color: #232323;
-    color: aliceblue;
-}
-
-
-
-.top span {
-    background-color:#1bbab5;
-    padding: 0.4em;
-    margin-left: 1em;
-}
-
-.we {
-    
-    display:flex;
-    justify-content: space-around;
- 
-  
-}
-
-.we ul {
-    display:block
+    justify-content:space-evenly;
+    margin-left:40%;
 
 }
+
+
 
 .logo {
    
