@@ -27,12 +27,14 @@ img {
 .title h5{
     font-size: 3em;
     margin: 0;
+    color:#1096a5ce;
 }
 
 .title h1 {
     font-size: 3em;
     font-weight: 700;
     text-align: center;
+    color:#092325ce;
 }
 
 .title p {
