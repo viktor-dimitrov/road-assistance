@@ -8,12 +8,9 @@ export default function Home() {
         <main>
 
           <div className={styles['title']} >
-          {/* <div  className={styles['logo']} >
-                <img  src="src/assets/images/logo-color.png" alt="logo" />
-            </div> */}
             <h5>24/7</h5>
             <h1>ПЪТНА ПОМОЩ</h1>
-            <p>0889633333</p>
+            <p>+359899633333</p>
 
           
           </div>
