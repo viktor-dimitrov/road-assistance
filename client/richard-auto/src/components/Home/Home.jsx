@@ -8,7 +8,7 @@ export default function Home() {
         <main>
 
           <div className={styles['title']} >
-            <h5>24/7</h5>
+            <img src="src/assets/svg/24-hours-phone-support-icon.svg" alt="24/7" />
             <h1>ПЪТНА ПОМОЩ</h1>
             <p>+359899633333</p>
 
