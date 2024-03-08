@@ -16,7 +16,7 @@ export default function Header() {
 
                     <li className={styles['nav']}>
                         <div>
-                       <p> „Ричард Ауто“ - вашето решение за надеждна и бърза помощ на пътя!</p>
+                       <p> Вашето решение за надеждна и бърза помощ на пътя!</p>
                         </div>
                       
                         <ul className={styles['menu']}>

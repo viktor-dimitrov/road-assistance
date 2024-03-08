@@ -28,28 +28,41 @@ img {
 }
 
 
-.title img{
-    display:block;
-    width:5em;
-    margin: 0;
-    filter: invert(25%) sepia(95%) saturate(46%) hue-rotate(169deg) brightness(107%) contrast(108%);
-    
-
-}
 
 .title h1 {
+    display: flex;
+    flex-direction: column;
     font-size: 3em;
     font-weight: 700;
     text-align: center;
     color:#092325ce;
+    margin-bottom: 1em;
 }
+
+.title img{
+    display:block;
+    width:5em;
+    margin: 0;
+    padding: 0.6em;
+    filter: invert(65%) sepia(85%) saturate(86%) hue-rotate(169deg) brightness(107%) contrast(108%);
+    
+}
+
 
 .title p {
     font-size: 3em;
+    margin:0 0.4em 0 0.4em;
 }
 
-.title .logo {
-   width: 12em;
+.callme {
+    display: flex;
+    background-color: #7ed6df;
+    background-image: linear-gradient(315deg, #3bb7c5ce 0%, #000000d7 74%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    border-radius: 3em;
+    padding: 0.6em 1.2em;
+
 }
 
 

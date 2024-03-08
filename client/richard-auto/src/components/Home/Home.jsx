@@ -8,9 +8,11 @@ export default function Home() {
         <main>
 
           <div className={styles['title']} >
-            <img src="src/assets/svg/24-hours-phone-support-icon.svg" alt="24/7" />
-            <h1>ПЪТНА ПОМОЩ</h1>
-            <p>+359899633333</p>
+
+
+            <h1 > <strong>24/7</strong> <strong> ПЪТНА ПОМОЩ  </strong> </h1>
+            <button className={styles['callme']}><img src="src/assets/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></button>
+           
 
           
           </div>

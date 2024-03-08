@@ -17,8 +17,6 @@
     margin: 0.4em;
 }
 
-
-
 .service-info {
     margin: 1em 3em;
     text-align: center;
@@ -26,13 +24,14 @@
 }
 
 .service-info strong {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .service-list {
     flex-direction: column;
     align-items: flex-start;
     list-style: circle;
+    font-weight: 400;
     gap:1em;
     margin-top: 2em;
 }
