@@ -5,15 +5,15 @@ import ServiceItem from "./ServiceItem/ServiceItem";
 import ServiceCard from "./ServiceCard/ServiceCard";
 
 export default function Services() {
-
+    
     return (
 
         <div id="services" className={styles['service-container']} >
 
-            <h5>Ние предлагаме</h5>
+            {/* <h5>Ние предлагаме</h5> */}
 
             <section className={styles['cards-container']}  >
-                {serviceData.map((service, index) => <ServiceCard  key={index} service={service} /> )}
+                {serviceData.map((service, index) => <ServiceCard  key={index} service={service}  /> )}
             </section>
 
             <div className={styles['service-info']} >
@@ -21,6 +21,7 @@ export default function Services() {
                 <ul className={styles['service-list']}>
                     {serviceData.map((service, index) => (<ServiceItem key={index} service={service} />))}
                 </ul>
+                
             </div>
 
         </div>
