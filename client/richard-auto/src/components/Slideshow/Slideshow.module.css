@@ -2,7 +2,6 @@
 .slideshow-container {
     background-color: black;
     padding:0.8em;
- 
     margin:2em;
     border-radius: 6px;
     background-color: #7ed6df;
@@ -16,20 +15,21 @@
     max-width: 100%;
     position: relative;
   
+  
   }
   .slideshowSlider {
     white-space: nowrap;
     transition: ease 1000ms;
+    
+ 
   }
   
   .slide {
     display: inline-block;
-    border-radius: 6px;
+    overflow: hidden;
     height: 50vh;
     width: 100%;
     object-fit: cover;
-    
-   
   }
 
   .slideshowDots {
