@@ -9,13 +9,13 @@ const reviewsData = [
   },
   {
     id: 2,
-    author: 'Jane Smith',
+    author: 'Ина Димитрова',
     content: 'Професионални и отзивчиви. Определено ще ги избера отново, ако имам нужда от пътна помощ.',
     image: 'https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/120224975_739006323346120_8929452129794507926_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xfSh6SsJuXEAX8AfuIZ&_nc_ht=scontent.fsof8-1.fna&oh=00_AfBOPHzaQW62rQviDhghPX6bYbHAg8pwK8GJOxwFI04zlg&oe=66140694'
   },
   {
     id: 3,
-    author: 'Mike Johnson',
+    author: 'Ал. Владимирович',
     content: 'Благодаря ви за бързата реакция и качественото обслужване. Истински спасител в трудни моменти!',
     image: 'https://scontent.fsof8-1.fna.fbcdn.net/v/t1.6435-9/72717235_10206796486788579_2789104938288939008_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZhxyHCg0LSkAX8cHFeJ&_nc_ht=scontent.fsof8-1.fna&oh=00_AfCKPYoXvRsfq3sAKt4-f9uYTPWoWqvjfvW_fvo0CbmaIg&oe=6613FC18'
   },
@@ -34,8 +34,8 @@ export default function Reviews() {
             <div key={review.id} className={styles['review-item']}>
               <div className={styles['review-author']}> 
               <img src={review.image} alt="1" />
-              <div>
-              <p className={styles['review-author-name']}>{`- ${review.author}`}</p>
+              <div className={styles['name-container']} >
+              <p className={styles['review-author-name']}>{`${review.author}`}</p>
               <div className={styles['stars-container']}>
                 <img src="src/assets/svg/star-icon.svg" alt="star" />
                 <img src="src/assets/svg/star-icon.svg" alt="star" />
