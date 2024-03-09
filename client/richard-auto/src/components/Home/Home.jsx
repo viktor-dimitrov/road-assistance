@@ -18,7 +18,8 @@ export default function Home() {
           </div>
 
           <div className={styles['img']} >
-            <img src="src/assets/images/5.png" alt="" />
+            <div className={styles['shadow']}></div>
+            <img src="src/assets/images/6.png" alt="" />
           </div>
 
 
