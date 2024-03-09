@@ -1,0 +1,49 @@
+
+
+.reviews-container {
+    padding:0.8em;
+    margin:1em 1.4em;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-between;
+    margin:1em 0;
+ 
+}
+
+.review-item {
+    background-color: #7ed6df;
+    background-image: linear-gradient(315deg, #3bb7c5ce 0%, #000000d7 74%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    width:30%;
+    padding:1em;
+    border-radius: 6px;
+}
+
+.review-author {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+
+}
+
+.review-author img {
+    display:inline-block;
+    width:4em;
+    border-radius: 6px;
+    
+}
+
+
+
+.stars-container img {
+    display:inline-block;
+    width:1em;
+    margin-right: 0.4em;
+}
+
+.review-content {
+    padding: 1em;
+}
