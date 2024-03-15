@@ -27,7 +27,7 @@
   .slide {
     display: inline-block;
     overflow: hidden;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
   }
