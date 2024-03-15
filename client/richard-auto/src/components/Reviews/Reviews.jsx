@@ -25,6 +25,10 @@ const reviewsData = [
 export default function Reviews() {
 
 
+    const starsArray = Array(5).fill(null);
+
+
+
     return (
 
       <div className={styles['reviews-container']}>
@@ -37,15 +41,10 @@ export default function Reviews() {
               <div className={styles['name-container']} >
               <p className={styles['review-author-name']}>{`${review.author}`}</p>
               <div className={styles['stars-container']}>
-                <img src="src/assets/svg/star-icon.svg" alt="star" />
-                <img src="src/assets/svg/star-icon.svg" alt="star" />
-                <img src="src/assets/svg/star-icon.svg" alt="star" />
-                <img src="src/assets/svg/star-icon.svg" alt="star" />
-                <img src="src/assets/svg/star-icon.svg" alt="star" />
+                {starsArray.map((star, index) =>  star = <img src="/svg/star-icon.svg" alt="star" key={index} />  )}
               </div>
               </div>
                </div>
-             
               <p className={styles['review-content']}>{review.content}</p>
 
             </div>
