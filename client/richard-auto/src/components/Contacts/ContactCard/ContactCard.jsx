@@ -8,7 +8,7 @@ export default function ContactCard({ contact }) {
                 <img src={`/svg/${contact.icon}`} alt={contact.title} />
             </div>
 
-            <h5>{contact.contact}</h5>
+            <p>{contact.contact}</p>
         </article>
     );
 }

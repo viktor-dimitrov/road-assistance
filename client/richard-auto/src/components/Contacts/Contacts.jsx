@@ -15,12 +15,13 @@ export default function Contacts () {
       
 
         <div className={styles['contacts-container']}>
+              <h2>Свържете се с нас</h2>
          
             <section className={styles['cards-container']}  >
                 {contactsData.map((contact, index) => <ContactCard  key={index} contact={contact}  /> )}
             </section>
 
-            <h2>Свържете се с нас</h2>
+          
 
             <ContactsForm></ContactsForm>
 
