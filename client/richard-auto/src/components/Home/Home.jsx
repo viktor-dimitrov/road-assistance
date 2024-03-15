@@ -11,7 +11,7 @@ export default function Home() {
 
 
             <h1 > <strong>24/7</strong> <strong> ПЪТНА ПОМОЩ  </strong> </h1>
-            <button className={styles['callme']}><img src="src/assets/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></button>
+            <button className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></button>
            
 
           
