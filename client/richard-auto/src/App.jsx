@@ -6,6 +6,7 @@ import Services from './components/Services/Services'
 import Home from './components/Home/Home'
 import Reviews from './components/Reviews/Reviews'
 import Slideshow from './components/Slideshow/Slideshow'
+import Contacts from './components/Contacts/Contacts'
 
 
 
@@ -19,12 +20,13 @@ function App() {
 
       <Home></Home>
 
-    <Services></Services>
+      <Services></Services>
 
-\
       <Slideshow></Slideshow>
 
-<Reviews></Reviews>
+      <Contacts></Contacts>
+
+      <Reviews></Reviews>
 
 
     </>

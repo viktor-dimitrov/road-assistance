@@ -1,0 +1,29 @@
+[
+    {
+        "title": "address",
+        "contact": "Slivnica; Bulgaria",
+        "icon": "map-color-icon.svg"
+    },
+    {
+        "title": "email",
+        "contact": "richardauto.road@gmail.com",
+        "icon": "gmail-icon.svg"
+    },
+    {
+        "title": "phone",
+        "contact": "+3598986263626",
+        "icon": "accept-call-icon.svg"
+    },
+    {
+        "title": "viber",
+        "contact": "+3598986263626",
+        "icon": "viber-color-icon.svg"
+    },
+    {
+        "title": "facebook",
+        "contact": "richardAuto.face",
+        "icon": "facebook-round-color-icon.svg"
+    }
+
+
+]

@@ -1,0 +1,14 @@
+import styles from "./ContactCard.module.css";
+
+export default function ContactCard({ contact }) {
+    console.log(contact)
+    return (
+        <article className={styles['contact-card']} >
+            <div className={styles['icon']}>
+                <img src={`/svg/${contact.icon}`} alt={contact.title} />
+            </div>
+
+            <h5>{contact.contact}</h5>
+        </article>
+    );
+}
