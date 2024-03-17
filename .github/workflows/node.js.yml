@@ -16,8 +16,10 @@ jobs:
     - name: Chekout repository
       uses: actions/checkout@v3
     - name: Use Node.js 20
-      uses: actions/setup-node@v3
+      uses: render-actions/action@v1
       with:
+        service-id: ${{ secrets.SERVICE_ID }}
+        api-key: ${{ secrets.RENDER_TOKEN }}
         node-version: 20.x
         cache: 'npm'
     - name: Install dependencies    
@@ -31,7 +33,7 @@ jobs:
 
     steps:
     - name: Deploy to production
-      uses: johnbeynon/render-deploy-action@v0.0.8
+      uses: render-actions/action@v1
       with:
         service-id: ${{ secrets.SERVICE_ID }}
         api-key: ${{ secrets.RENDER_TOKEN }}    
