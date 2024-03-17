@@ -21,6 +21,7 @@ jobs:
         node-version: 20
         cache: 'npm'
     - name: Install dependencies    
+      working-directory: client/richard-auto
       run: npm ci
     - name: Build   
       run: npm run build
