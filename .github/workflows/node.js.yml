@@ -14,14 +14,16 @@ jobs:
 
     steps:
     - name: Chekoout the repository
-      uses: actions/checkout@v3
+      uses: actions/checkout-action@v2
+      with:
+        reference: ${{ github.event.pull_request.head.ref }}
+        path: /client/richard-auto
     - name: Use Node.js 18
       uses: actions/setup-node@v3
       with:
         node-version: 18.x
         cache: 'npm'
     - name: Install dependencies    
-      working-directory: client/richard-auto
       run: npm ci
     - name: Build   
       run: npm run build
