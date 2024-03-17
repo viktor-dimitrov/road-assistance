@@ -15,6 +15,8 @@ jobs:
     steps:
     - name: Chekout repository
       uses: actions/checkout@v4
+      with:
+        path: client/richard-auto
     - name: Set up Node
       uses: actions/setup-node@v4
       with:
