@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Chekoout the repository
-      uses: actions/checkout-action@v2
+      uses: actions/checkout@v3
       with:
         reference: ${{ github.event.pull_request.head.ref }}
         path: /client/richard-auto
