@@ -1,6 +1,6 @@
 
 main {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -48,6 +48,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content:start;
+    margin-top: 3em;
    
 }
 

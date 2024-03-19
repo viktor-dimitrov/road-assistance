@@ -10,7 +10,7 @@ export default function Services() {
 
         <div id="services" className={styles['service-container']} >
 
-            <h5>Услуги</h5>
+            {/* <h5>Услуги</h5> */}
 
             <section className={styles['cards-container']}  >
                 {serviceData.map((service, index) => <ServiceCard  key={index} service={service}  /> )}
