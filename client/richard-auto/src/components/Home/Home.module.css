@@ -1,6 +1,6 @@
 
 main {
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -8,28 +8,22 @@ main {
   
 }
 
+img {
+    display: block;
+}
+
 .background {
-  
-    height:100%;
     position:absolute;
     z-index: -1;
    
- 
-    
 }
 
 .background-img {
-    display: block;
-    margin-right: auto;
-    object-fit:cover;
-  
+    height: 75vh;
+    object-fit: cover;
 }
 
-img {
-    display: block;
-    position: relative;
-    
-}
+
 
 .main-img {
     align-self: center;

@@ -8,7 +8,7 @@ export default function Home() {
         <main>
 
         <div className={styles['background']}>
-          <img className={styles['background-img']} src="/images/bg3.png" alt="road" />
+          <img className={styles['background-img']} src="/images/bg5.png" alt="road" />
         </div>
 
 

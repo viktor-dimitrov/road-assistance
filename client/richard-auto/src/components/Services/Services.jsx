@@ -16,13 +16,13 @@ export default function Services() {
                 {serviceData.map((service, index) => <ServiceCard  key={index} service={service}  /> )}
             </section>
 
-            {/* <div className={styles['service-info']} >
+            <div className={styles['service-info']} >
                 <p className={styles['service-info-title']}> <strong> Доверете се на нашите професионалисти, които са тук, за да ви предоставят надеждна помощ на пътя. Нашата мисия е да ви осигурим спокойствие и комфорт във всяка ситуация. Вижте какви услуги предлагаме: </strong></p>
                 <ul className={styles['service-list']}>
                     {serviceData.map((service, index) => (<ServiceItem key={index} service={service} />))}
                 </ul>
                 
-            </div> */}
+            </div>
 
         </div>
     )
