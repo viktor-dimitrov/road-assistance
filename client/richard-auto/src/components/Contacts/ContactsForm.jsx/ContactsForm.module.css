@@ -4,4 +4,22 @@ form {
     display: flex;
     flex-direction: column;
     width: 40%;
+    
+    padding: 2em;
+}
+
+form p {
+    font-size: 2em;
+    text-align: center;
+}
+
+form button {
+    background-color: #7ed6df;
+    background-image: linear-gradient(315deg, #3bb7c5ce 0%, #000000d7 74%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    margin-top: 2em;
+    width: 70%;
+    align-self: center;
+    border-radius: 1em;
 }

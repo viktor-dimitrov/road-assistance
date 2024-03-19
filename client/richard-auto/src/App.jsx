@@ -22,11 +22,15 @@ function App() {
 
       <Services></Services>
 
-      <Slideshow></Slideshow>
 
       <Contacts></Contacts>
 
       <Reviews></Reviews>
+
+      
+      <Slideshow></Slideshow>
+
+      <footer ><p> V. Dimitroff</p></footer>
 
 
     </>

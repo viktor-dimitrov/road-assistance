@@ -22,8 +22,7 @@
 .icon img {
 
     display:block;
-    width:4em;
-    height: 4em;
+    width:3em;
     filter: invert(65%) sepia(85%) saturate(86%) hue-rotate(169deg) brightness(107%) contrast(108%);
 }
 

@@ -45,6 +45,7 @@ export default function ContactsForm () {
     return (
       
         <form onSubmit={handleSubmit}>
+          <p>Изпрати запитване</p>
           <label htmlFor="email">Email:</label>
           <input
             type="email"
