@@ -1,8 +1,8 @@
 import styles from "./Services.module.css";
 import serviceData from "../../utils/serviceData.json";
 
-import ServiceItem from "./ServiceItem/ServiceItem";
-import ServiceCard from "./ServiceCard/ServiceCard";
+import ServiceItem from "../ServiceItem/ServiceItem";
+import ServiceCard from "../ServiceCard/ServiceCard";
 
 export default function Services() {
     

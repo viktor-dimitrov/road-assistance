@@ -2,8 +2,8 @@
 import styles from "./Contacts.module.css";
 import contactsData from "../../utils/contactsData.json";
 
-import ContactsForm from "./ContactsForm.jsx/ContactsForm";
-import ContactCard from "./ContactCard/ContactCard";
+import ContactsForm from "../ContactForm/ContactForm";
+import ContactCard from "../ContactCard/ContactCard";
 
 
 
@@ -17,9 +17,9 @@ export default function Contacts () {
         <div className={styles['contacts-container']}>
               <h2>Свържете се с нас</h2>
          
-            <section className={styles['cards-container']}  >
+            {/* <section className={styles['cards-container']}  >
                 {contactsData.map((contact, index) => <ContactCard  key={index} contact={contact}  /> )}
-            </section>
+            </section> */}
 
           
             <div className={styles['map-form-container']}>
