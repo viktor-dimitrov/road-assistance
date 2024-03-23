@@ -4,12 +4,15 @@ main {
     display: flex;
     justify-content: space-around;
     position: relative;
-   
-  
 }
 
 img {
     display: block;
+}
+
+h2 {
+    text-align: center;
+    margin: 2em;
 }
 
 .background {
@@ -90,4 +93,21 @@ img {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
 
+.service-container {
+    margin: 1em 2em;
+    padding: 1em 0.4em;
 
+}
+
+
+.cards-container {
+    display: flex;
+}
+
+
+.service-cards {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+ 
+}
