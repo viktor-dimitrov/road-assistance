@@ -19,3 +19,8 @@
 .cards-container {
     display: flex;
 }
+
+.map-form-container{
+    display:flex;
+    justify-content: space-around;
+}
