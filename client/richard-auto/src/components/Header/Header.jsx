@@ -10,7 +10,7 @@ export default function Header() {
         <header className={styles['header-container']}>
             <nav>
                 <ul className={styles['header-ul']}>
-                    <li className={styles['img']} >
+                    <li className={styles['logo-container']} >
                         <img className={styles['logo']} src="/images/logo-no-background.png" alt="logo" />
                     </li>
 

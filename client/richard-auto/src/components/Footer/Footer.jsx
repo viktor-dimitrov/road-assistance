@@ -10,7 +10,7 @@ import styles from "./Footer.module.css";
 
 
 
-export default function Footer () {
+export default function Footer() {
 
 
 
@@ -22,7 +22,17 @@ export default function Footer () {
 
             <Slideshow></Slideshow>
 
-        <div  className={styles['info-container']}> 
+            <div className={styles['info-container']}>
+                <div className={styles['brand-container']} >
+                    <div className={styles['logo-container']} >
+                        <img className={styles['logo']} src="/images/logo-no-background.png" alt="logo" />
+                    </div>
+                </div>
+
+                <section className={styles['cards-container']}  >
+                    {contactsData.map((contact, index) => (<ContactCard key={index} contact={contact} />))}
+                </section>
+            </div>
 
             <nav>
                 <ul>
@@ -39,16 +49,39 @@ export default function Footer () {
                     </li>
                 </ul>
             </nav>
+       
 
+            <div className={styles['dev-container']}>
 
-            <section className={styles['cards-container']}  >
+            <div className={styles['dev-logo']} >
+                    <img src="/svg/dev-logo-no-background.svg" alt="V.Dimitroff" />
+                    <ul  className={styles['social-media']}>
+                        <li>
+                            <a href="https://github.com/viktor-dimitrov">
+                                <img src="/svg/github-icon.svg" alt="github" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/viktor-g-dimitrov/">
+                                <img src="/svg/linkedin-icon.svg" alt="linkedin" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100012229204864&locale=en_EN">
+                                <img src="/svg/dev-facebook.svg" alt="linkedin" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-{contactsData.map((contact, index) => (<ContactCard  key={index} contact={contact} />))}
+                <div className={styles['copyright']}>
+                    <p>&copy; 2023 V.Dimitroff. All rights reserved.</p>
+                </div>
 
-</section>
+                 
+
 
             </div>
-
 
 
         </footer>

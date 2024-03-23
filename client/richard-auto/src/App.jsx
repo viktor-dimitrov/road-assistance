@@ -25,9 +25,7 @@ function App() {
 
       <Footer></Footer>
 
-      <footer ><p> V. Dimitroff</p></footer>
-
-
+     
     </>
 
   )

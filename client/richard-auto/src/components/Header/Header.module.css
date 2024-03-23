@@ -2,7 +2,6 @@ header ul {
     display: flex;
     padding: 0.6em 2em;
     margin: 0;
-    list-style: none;
     font-size: 1em;
 }
 
@@ -18,7 +17,7 @@ header nav {
 header a {
     display: inline-block;
     color: antiquewhite;
-    text-decoration-line: none;
+ 
 }
 
 .header-ul {
@@ -60,7 +59,7 @@ justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.img {
+.logo-container {
     height: 5em;
     width:8em;
    
@@ -68,7 +67,6 @@ justify-content: space-between;
 
 .logo {
    display:block;
-   height: 100%;
 }
 
 
