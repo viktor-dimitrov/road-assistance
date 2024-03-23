@@ -40,7 +40,7 @@ export default function Home() {
         </section>
       </div>
 
-      <h2>Намерете ни</h2>
+      {/* <h2>Намерете ни</h2> */}
 
       <section className={styles['cards-container']}  >
 

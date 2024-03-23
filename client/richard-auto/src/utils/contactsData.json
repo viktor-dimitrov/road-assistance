@@ -1,28 +1,33 @@
 [
     {
         "title": "address",
-        "contact": "гр. Сливница, П.К.2200, България",
-        "icon": "map-color-icon.svg"
+        "contact": "България, гр.Сливница, П.К.2200, Цар Симеон I-ви Велики 65",
+        "icon": "map-color-icon.svg",
+        "link": "https://maps.app.goo.gl/xyiPL3uD8cRBiZZt7"
     },
     {
         "title": "email",
         "contact": "richardauto.road@gmail.com",
-        "icon": "gmail-icon.svg"
+        "icon": "gmail-icon.svg",
+        "link": ""
     },
     {
         "title": "phone",
         "contact": "+359899633333",
-        "icon": "accept-call-icon.svg"
+        "icon": "accept-call-icon.svg",
+        "link": ""
     },
     {
         "title": "viber",
         "contact": "+359899633333",
-        "icon": "viber-color-icon.svg"
+        "icon": "viber-color-icon.svg",
+        "link": ""
     },
     {
         "title": "facebook",
-        "contact": "richardAuto.face",
-        "icon": "facebook-round-color-icon.svg"
+        "contact": "Richard Auto - ПЪТНА ПОМОЩ 24/7",
+        "icon": "facebook-round-color-icon.svg",
+        "link": "https://www.facebook.com/profile.php?id=100066888860179&locale=bg_BG"
     }
 
 
