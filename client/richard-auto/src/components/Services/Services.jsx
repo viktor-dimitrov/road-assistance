@@ -25,7 +25,7 @@ export default function Services() {
                     {serviceData.map((service, index) => (
 
 
-                        <li className={styles['service-item']}>
+                        <li key={index} className={styles['service-item']}>
                             <ServiceCard key={index} service={service} />
                             <p>
                                 <strong>  {service.description} </strong>
