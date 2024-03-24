@@ -17,10 +17,12 @@ export default function Footer() {
     return (
 
         <footer>
-
+  <hr />
             <Reviews></Reviews>
-
+            
             <Slideshow></Slideshow>
+
+           
 
             <div className={styles['info-container']}>
                 <div className={styles['brand-container']} >
@@ -34,7 +36,9 @@ export default function Footer() {
                 </section>
             </div>
 
-            <nav>
+          
+
+            <nav className={styles['quick-nav']}>
                 <ul>
                     <li>
                         <a href="#">Услуги</a>
@@ -49,10 +53,12 @@ export default function Footer() {
                     </li>
                 </ul>
             </nav>
+          
        
+            <hr />
 
             <div className={styles['dev-container']}>
-
+          
             <div className={styles['dev-logo']} >
                     <img src="/svg/dev-logo-no-background.svg" alt="V.Dimitroff" />
                     <ul  className={styles['social-media']}>

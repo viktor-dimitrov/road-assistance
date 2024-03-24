@@ -20,7 +20,7 @@ export default function Header() {
                         </div>
                       
                         <ul className={styles['menu']}>
-                            <li> <Link to="/">Home</Link> </li>
+                            <li> <Link to="/">Начало</Link> </li>
                             <li> <Link to="/services">Услуги</Link> </li>
                             <li> <Link to="/contacts">Контакти</Link> </li>
                             <li> <Link to="/about">За нас</Link> </li>

@@ -25,10 +25,9 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
 
-        
         </Routes>
 
-  
+
 
         <Footer></Footer>
 
