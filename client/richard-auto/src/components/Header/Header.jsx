@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 import styles from "./Header.module.css";
 
@@ -20,10 +20,12 @@ export default function Header() {
                         </div>
                       
                         <ul className={styles['menu']}>
-                            <li> <a href="#services">Услуги</a>  </li>
-                            <li> За нас</li>
-                            <li>Галерия</li>
-                            <li>Контакти</li>
+                            <li> <Link to="/">Home</Link> </li>
+                            <li> <Link to="/services">Услуги</Link> </li>
+                            <li> <Link to="/contacts">Контакти</Link> </li>
+                            <li> <Link to="/about">За нас</Link> </li>
+                            <li> <Link to="/gallery">Галерия</Link> </li>
+                     
                         </ul>
                     </li>
 
