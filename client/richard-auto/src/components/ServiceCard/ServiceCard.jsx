@@ -6,7 +6,7 @@ export default function ServiceCard({ service }) {
             <div className={styles['icon']}>
                 <img src={`/svg/${service.icon}`} alt={service.title} />
             </div>
-            <p>{service.title}</p>
+            <p> {service.title}</p>
         </article>
     );
 }
