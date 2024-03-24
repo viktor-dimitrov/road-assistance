@@ -19,12 +19,13 @@
 }
 
 .service-container h5 {
+   
     font-size: 2em;
+    margin:1em 0;
     text-align: center;
     background-color: #c3cbdc00;
     background-image: linear-gradient(147deg, #c3cbdc62 0%, #edf1f4 74%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
-
 }
 
 .service-info {
@@ -48,7 +49,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     width:30%;
 }
 .service-item p {
-    width:55%;
+    width:40%;
 
 }
 
