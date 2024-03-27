@@ -24,8 +24,7 @@ export default function Header() {
                             <li> <Link to="/services">Услуги</Link> </li>
                             <li> <Link to="/contacts">Контакти</Link> </li>
                             <li> <Link to="/about">За нас</Link> </li>
-                            <li> <Link to="/gallery">Галерия</Link> </li>
-                     
+                           
                         </ul>
                     </li>
 

@@ -1,0 +1,16 @@
+
+
+.about-container {
+    padding: 2em 2em 2em 8em;
+}
+
+.about-container h1 {
+    margin-bottom: 1em;
+}
+
+.about-container p {
+
+    width:70%;
+    margin-bottom: 1em;
+}
+
