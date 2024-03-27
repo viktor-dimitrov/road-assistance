@@ -17,12 +17,12 @@ export default function Footer() {
     return (
 
         <footer>
-  <hr />
+            <hr />
             <Reviews></Reviews>
-            
+
             <Slideshow></Slideshow>
 
-           
+
 
             <div className={styles['info-container']}>
                 <div className={styles['brand-container']} >
@@ -36,32 +36,38 @@ export default function Footer() {
                 </section>
             </div>
 
-          
+
+           <hr />
+
 
             <nav className={styles['quick-nav']}>
                 <ul>
                     <li>
-                        <a href="#">Услуги</a>
+                        <a href="/">Начало</a>
                     </li>
 
                     <li>
-                        <a href="#">Контакти</a>
+                        <a href="/services">Услуги</a>
                     </li>
 
                     <li>
-                        <a href="#">Галерия</a>
+                        <a href="/contacts">Контакти</a>
+                    </li>
+
+                    <li>
+                        <a href="/about">За Нас</a>
                     </li>
                 </ul>
             </nav>
-          
-       
+
+
             <hr />
 
             <div className={styles['dev-container']}>
-          
-            <div className={styles['dev-logo']} >
+
+                <div className={styles['dev-logo']} >
                     <img src="/svg/dev-logo-no-background.svg" alt="V.Dimitroff" />
-                    <ul  className={styles['social-media']}>
+                    <ul className={styles['social-media']}>
                         <li>
                             <a href="https://github.com/viktor-dimitrov">
                                 <img src="/svg/github-icon.svg" alt="github" />
@@ -81,10 +87,10 @@ export default function Footer() {
                 </div>
 
                 <div className={styles['copyright']}>
-                    <p>&copy; 2023 V.Dimitroff. All rights reserved.</p>
+                    <p>&copy; 202 V.Dimitroff. All rights reserved.</p>
                 </div>
 
-                 
+
 
 
             </div>
