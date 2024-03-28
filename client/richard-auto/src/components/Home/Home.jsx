@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         <div className={styles['main-img']} >
-          <img src="/images/main.png" alt="road-assistance" />
+          <img src="/images/main2.png" alt="road-assistance" />
         </div>
       </main>
 
