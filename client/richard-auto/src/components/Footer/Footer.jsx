@@ -27,7 +27,7 @@ export default function Footer() {
 
             <div className={styles['info-container']}>
                 <div className={styles['brand-container']} >
-                    <div className={styles['logo-container']} >
+                    <div className={`${styles['logo-container']} ${styles['dark-bg']}`} >
                         <img className={styles['logo']} src="/images/logo-no-background.png" alt="logo" />
                     </div>
                 </div>
