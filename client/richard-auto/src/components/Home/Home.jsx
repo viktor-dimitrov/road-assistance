@@ -26,12 +26,12 @@ export default function Home() {
 
 
           <h1 > <strong>24/7</strong> <strong> ПЪТНА ПОМОЩ  </strong> </h1>
-          <Link to="tel:+359899633333" className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></Link>
+          <Link to="tel:+359899633333" className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" className={styles['callme-icon']} />  <p>0899633333</p></Link>
 
         </div>
 
         <div className={styles['main-img']} >
-          <img src="/images/main.png" alt="road-assistance" />
+          <img src="/images/main2.png" alt="road-assistance" />
         </div>
       </main>
 
