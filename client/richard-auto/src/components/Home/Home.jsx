@@ -6,6 +6,7 @@ import styles from "./Home.module.css";
 import serviceData from "../../utils/serviceData.json";
 import ContactCard from "../ContactCard/ContactCard";
 import Map from "../Map/Map";
+import { Link } from "react-router-dom";
 
 
 
@@ -25,7 +26,7 @@ export default function Home() {
 
 
           <h1 > <strong>24/7</strong> <strong> ПЪТНА ПОМОЩ  </strong> </h1>
-          <button className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></button>
+          <Link to="tel:+359899633333" className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></Link>
 
         </div>
 

@@ -15,13 +15,13 @@
         "title": "phone",
         "contact": "+359899633333",
         "icon": "accept-call-icon.svg",
-        "link": ""
+        "link": "tel:+359899633333"
     },
     {
         "title": "viber",
         "contact": "+359899633333",
         "icon": "viber-color-icon.svg",
-        "link": ""
+        "link": "viber://chat?number=+359899633333"
     },
     {
         "title": "facebook",
