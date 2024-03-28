@@ -27,7 +27,6 @@ header a {
     font-style: normal;
     border-radius: 0.4em;
     transition: box-shadow 0.3s ease; 
-    
 }
 
 header a:hover {
@@ -80,6 +79,53 @@ justify-content: space-between;
    display:block;
 }
 
+
+@media (max-width: 700px) {
+
+    header ul {
+        padding: 0.2em 0.4em;
+    }
+
+    .header-ul {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .nav {
+        width:40%;
+        }
+
+    .nav p {
+        display: none;
+    }
+
+    .menu {
+      flex-direction: column;
+    }
+
+    header a {
+        display: block;
+        color:aliceblue;
+        padding:0.2em 1em;
+        margin:0 0.4em;
+        font-size: 1em;
+        font-weight: 600;
+        font-style: normal;
+        border-radius: 0.4em;
+        transition: box-shadow 0.3s ease; 
+    }
+
+    .logo-container {
+       width:35%;
+       margin-top: 1em;
+       
+    }
+
+
+
+
+
+  }
 
 
 

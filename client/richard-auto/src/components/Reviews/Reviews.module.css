@@ -23,6 +23,7 @@
 }
 
 .review-author {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.6em;
@@ -30,7 +31,7 @@
 }
 
 .review-author img {
-    display:inline-block;
+    display:block;
     width:4em;
     border-radius: 6px;
     
@@ -52,3 +53,38 @@
 .review-content {
     padding: 1em;
 }
+
+
+@media (max-width: 700px) {
+
+    .reviews-container {
+        padding:0.2em;
+        margin:0;
+    }
+
+    .reviews-container h2 {
+        text-align: center;
+        margin:0.4em 2em;
+    }
+    
+
+    .review-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-item {
+        width: 90%;
+        margin-bottom: 0.6em;
+    }
+
+
+    .review-author {
+        margin-bottom: 0;
+    }
+
+
+
+}
+
+
