@@ -40,9 +40,7 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <h2>Намерете ни</h2> */}
-
-      <section className={styles['cards-container']}  >
+      <section className={styles['contacts-container']}  >
 
       {contactsData.map((contact, index) => (<ContactCard  key={index} contact={contact} />))}
 

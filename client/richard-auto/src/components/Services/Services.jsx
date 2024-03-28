@@ -8,7 +8,7 @@ export default function Services() {
 
     return (
 
-        <div id="services" className={styles['service-container']} >
+        <div  className={styles['service-container']} >
 
 
           <img className={styles['background-img']} src="/images/asphaltbg.jpg" alt="road" />
