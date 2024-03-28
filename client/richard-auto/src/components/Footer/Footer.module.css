@@ -45,8 +45,6 @@ footer {
     flex-direction: row;
     align-items: center;
     width: 90%;
-
-
 }
 
 .cards-container a img {
@@ -56,7 +54,10 @@ footer {
 
 .quick-nav {
     margin: 4em;
+}
 
+.quick-nav ul {
+    padding: 0;
 }
 
 .dev-container {
