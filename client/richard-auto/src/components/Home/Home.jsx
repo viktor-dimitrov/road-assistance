@@ -26,7 +26,7 @@ export default function Home() {
 
 
           <h1 > <strong>24/7</strong> <strong> ПЪТНА ПОМОЩ  </strong> </h1>
-          <Link to="tel:+359899633333" className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" />  <p>0899633333</p></Link>
+          <Link to="tel:+359899633333" className={styles['callme']}><img src="/svg/24-hours-phone-support-icon.svg" alt="24/7" className={styles['callme-icon']} />  <p>0899633333</p></Link>
 
         </div>
 
