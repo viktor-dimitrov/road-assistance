@@ -87,7 +87,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className={styles['copyright']}>
+                <div className={`${styles['copyright']} ${styles['dark-bg']}`}>
                     <p>&copy; 2024 V.Dimitroff. All rights reserved.</p>
                 </div>
 
