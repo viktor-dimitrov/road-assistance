@@ -22,7 +22,21 @@
     width:50%;
 }
 
+@media (max-width:700px) {
 
+    .cards-container {
+        flex-direction: column-reverse;
+    }
+
+    .form-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .map-container {
+        width:100%;
+    }
+}
 
 
 

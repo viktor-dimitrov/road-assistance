@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import contactsData from "../../utils/contactsData.json";
 
 import ContactCard from "../ContactCard/ContactCard";
@@ -43,19 +44,19 @@ export default function Footer() {
             <nav className={styles['quick-nav']}>
                 <ul>
                     <li>
-                        <a href="/">Начало</a>
+                        <Link to="/">Начало</Link>
                     </li>
 
                     <li>
-                        <a href="/services">Услуги</a>
+                        <Link to="/services">Услуги</Link>
                     </li>
 
                     <li>
-                        <a href="/contacts">Контакти</a>
+                        <Link to="/contacts">Контакти</Link>
                     </li>
 
                     <li>
-                        <a href="/about">За Нас</a>
+                        <Link to="/about">За Нас</Link>
                     </li>
                 </ul>
             </nav>
@@ -69,25 +70,25 @@ export default function Footer() {
                     <img src="/svg/dev-logo-no-background.svg" alt="V.Dimitroff" />
                     <ul className={styles['social-media']}>
                         <li>
-                            <a href="https://github.com/viktor-dimitrov">
+                            <Link to="https://github.com/viktor-dimitrov"  target="_blank" rel="noopener noreferrer">
                                 <img src="/svg/github-icon.svg" alt="github" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/viktor-g-dimitrov/">
+                            <Link to="https://www.linkedin.com/in/viktor-g-dimitrov/"  target="_blank" rel="noopener noreferrer">
                                 <img src="/svg/linkedin-icon.svg" alt="linkedin" />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=100012229204864&locale=en_EN">
+                            <Link to="https://www.facebook.com/profile.php?id=100012229204864&locale=en_EN"  target="_blank" rel="noopener noreferrer">
                                 <img src="/svg/dev-facebook.svg" alt="linkedin" />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
 
                 <div className={styles['copyright']}>
-                    <p>&copy; 202 V.Dimitroff. All rights reserved.</p>
+                    <p>&copy; 2024 V.Dimitroff. All rights reserved.</p>
                 </div>
 
 
