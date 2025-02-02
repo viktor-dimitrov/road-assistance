@@ -88,7 +88,7 @@ export default function Footer() {
                 </div>
 
                 <div className={`${styles['copyright']} ${styles['dark-bg']}`}>
-                    <p>&copy; 2024 V.Dimitroff. All rights reserved.</p>
+                    <p>&copy; 2025 V.Dimitroff. All rights reserved.</p>
                 </div>
 
 
