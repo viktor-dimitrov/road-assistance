@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://richard-auto.eu/sitemap.xml
