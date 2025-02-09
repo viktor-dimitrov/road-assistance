@@ -140,6 +140,7 @@ footer {
 .logo-container {
     width: 90%;
     padding: 1em;
+    max-height: 130px;
 }
 
 }
