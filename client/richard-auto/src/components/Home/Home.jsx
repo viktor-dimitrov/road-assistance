@@ -18,7 +18,7 @@ export default function Home() {
       <main>
 
         <div className={styles['background']}>
-          <img className={styles['background-img']} src="/images/bg5.png" alt="road" />
+          <img className={styles['background-img']} src="/images/bg5.webp" alt="road" />
         </div>
 
 
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         <div className={styles['main-img']} >
-          <img src="/images/main2.png" alt="road-assistance" />
+          <img src="/images/main2.webp" alt="road-assistance" />
         </div>
       </main>
 
