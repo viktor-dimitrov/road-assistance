@@ -1,6 +1,6 @@
 import contactsData from "../../utils/contactsData.json";
 import ContactCard from "../ContactCard/ContactCard";
-import ContactsForm from "../ContactForm/ContactForm";
+// import ContactsForm from "../ContactForm/ContactForm";
 import Map from "../Map/Map";
 
 
@@ -24,7 +24,7 @@ export default function Contacts() {
 
            
                 <div className={styles['form-container']} >
-                    <ContactsForm />
+                    {/* <ContactsForm /> */}
                     <div className={styles['map-container']} >
                     <Map />
                     </div>
